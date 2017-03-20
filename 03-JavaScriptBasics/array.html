@@ -14,18 +14,31 @@
 
 			// assing random integers to array elements
 			for (i = 0; i < tab.length; i++) {
-				// ...
+				tab[i] = Math.round(Math.random() * 5);
 			}
 
 			// show array elements
-			console.log('Array elements:');
+			console.log('Array elements: \n');
+			for (i = 0; i < tab.length; i++) {
+				console.log(tab[i] + '\n');
+			} 
 			// ...
-			
+			var wynik = true;
 			// check whether the array is ordered
-			// ...
+			for (i = 0; i < tab.length; i++) {
+				if (tab[i] > tab[i+1]) {
+					wynik = false;
+					break;
+				}
+			}
 			
 			// display message: Array is ordered / unordered
-			// ...
+			if (wynik) {
+				console.log('Tabela jest posortowana.');
+			} else {
+				console.log('Tabela jest nieposortowana.');
+			}
+			
 		</script>
 	</body>
 </html>

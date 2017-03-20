@@ -9,11 +9,15 @@
 
 		<script>
 			// read user's number (popup window)
-			
+			var liczba = prompt('Please guess the number between 1 to 5: ', '');
 			// create a random number
-			
+			var los = Math.round(Math.random()*5);
 			// compare the numbers
-			
+			if (liczba == los){
+				window.alert('Good job');
+			} else {
+				window.alert('Sorry');
+			}
 			// show results (popup window)
 			
 		</script>
