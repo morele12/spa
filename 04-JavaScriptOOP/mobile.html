@@ -7,6 +7,20 @@
 	<body>
 		<h1>Create mobile phone</h1>
 		<script>
+			var mobilePhone = {
+				name: "Małgorzata",
+				surname: "Graja",
+				phoneNumber: 888123456,
+				polish: true,
+				applications: ["GoogleMaps", "Messenger", "GaduGadu"],
+				specification: {system: "Android", memory: "4GB"},
+				
+				myfunction: function() {
+					window.alert("Imie: " + this.name + " Nazwisko: " + this.surname + " Numer: " + this.phoneNumber + " Polski: " + this.polish + " Aplikacje: " + this.applications[0] + " " + this.applications[1] + " " + this.applications[2] + "Specyfikacja: system " + this.specification.system + ", pamięć " + this.specification.memory);
+				}
+			}
+			
 		</script>
+		<button onClick="mobilePhone.myfunction()">Kliknij</button>
 	</body>
 </html>

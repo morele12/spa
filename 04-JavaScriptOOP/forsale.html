@@ -7,6 +7,48 @@
 	<body>
 		<h1>Houses for sale</h1>
 		<script>
+			function House(bed, fac, pr, add, ph) {
+				this.bedrooms = bed;
+				this.facilities = fac;
+				this.price = pr;
+				this.address = add;
+				this.phone = ph;
+				
+				this.changePrice = function(newPrice) {
+					this.price = newPrice;
+				}
+				
+				this.addFacility = function(newFacility) {
+					var temp = this.facilities;
+					this.facilities = new Array(temp.length+1);
+					this.facilities = temp;
+					this.facilities[temp.length] = newFacility;
+				}
+				
+				this.description = function() {
+					function f(fac) {
+						var str = "";
+						for (var i=0; i < fac.length; i++){
+							str += fac[i];
+							str += ", ";
+						}
+						return str;
+					}
+					return ("Dom na sprzedaż ma " + this.bedrooms + " sypialnie oraz " + f(this.facilities) + "cena mieszkania wynosi: " + this.price + ". Adres mieszkania to: " + this.address.street + ", " + this.address.city + ". Numer kontaktowy: " + this.phone + ".\n\n");
+				}
+			}
+			var house1 = new House(3, ['garden', 'garage', 'swimming pool'], 720000, {street: "Szewska 22", city: "Kraków"}, "899 123 456");
+			var house2 = new House(1, ['balcony'], 120000, {street: "Krowoderska 32", city: "Kraków"}, "888 786 421");
+			var house3 = new House(2, ['balcony', 'garage'], 350000, {street: "Słoneczna 1", city: "Wrocław"}, "123 123 456");
+			var house4 = new House(2, ['garage'], 250000, {street: "Biała 2", city: "Kraków"}, "345 335 283");
+			var house5 = new House(4, ['balcony', 'garden', 'garage', 'swimming pool'], 1200000, {street: "Śliczna 224", city: "Kraków"}, "516 273 192");
+			
+			house1.addFacility('balcony');
+			house2.addFacility('garage');
+			house3.addFacility('garden');
+			house3.changePrice(380000);
+			house5.changePrice(1100000);
+			console.log(house1.description() + house2.description() + house3.description() + house4.description() + house5.description());
 		</script>
 	</body>
 </html>

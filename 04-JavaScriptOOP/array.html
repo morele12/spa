@@ -9,16 +9,44 @@
 		<script>
 			var myArray = {
 					arr: [3,4,76,1,5,787,33,76,1,99,45,235,53,23],
+					
 					min: function(){
 						// maximum value (sort the arr and take the last value, use a built-in function)
-					},		
-					max: function(){},		// look at the min method comment
-					avg: function(){},		// avarage value
-					lth: function(val){}	// the number of arr values less than 'val'
+						this.arr.sort();
+						return this.arr[0];
+					},
+					
+					max: function(){
+						this.arr.sort().reverse();
+						
+						/*for (var i = 0; i < this.arr.length; i++) {
+							console.log(this.arr[i] + "\n");
+						} */
+						return this.arr[0];
+					},		// look at the min method comment
+					
+					avg: function(){
+						var suma = 0;
+						for (var i = 0; i < this.arr.length; i++) {	
+							suma += this.arr[i];
+						}
+						var srednia = suma / this.arr.length;
+						return srednia;
+					},		// avarage value
+					
+					lth: function(val){
+						var licznik = 0;
+						for (var i = 0; i < this.arr.length; i++) {	
+							if (this.arr[i] < val) {
+								licznik++;
+							}
+						}
+						return licznik;
+					}	// the number of arr values less than 'val'
 			};
 			
 			// display results (min,max,avg,lth) in the console
-			// ...
+			console.log("Wyniki funkcji: \nWartość minimalna: " + myArray.min() + "\nWartość maksymalna: " + myArray.max() + "\nWartość średnia: " + myArray.avg() + "\nLiczby mniejsze od 100: " + myArray.lth(100));
 		</script>
 	</body>
 </html>
