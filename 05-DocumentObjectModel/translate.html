@@ -5,11 +5,20 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<h3>Sticks and stones may break my bones, but words will never harm me.</h3>
+		<h3 id="tekst">Sticks and stones may break my bones, but words will never harm me.</h3>
 		<script>
 			// a JavaScript code here ...
 			
+			document.getElementById("tekst").onmouseover = function() {tlumacz()};
+			document.getElementById("tekst").onmouseout = function() {powrot()};
+			
 			// Translation:
+			function tlumacz() {
+				document.getElementById("tekst").innerHTML = "Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią";
+			}
+			function powrot() {
+				document.getElementById("tekst").innerHTML = "Sticks and stones may break my bones, but words will never harm me.";
+			}
 			// Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią
 			
 		</script>
