@@ -20,11 +20,18 @@
 		Przeciw nim sterczy biała, wąska, zaostrzona,<br>
 		Jak głaz bodzący morze, reduta Ordona.</p>
 		
-		<textarea rows="15" cols="50"></textarea><br>
+		<textarea rows="15" cols="50" id="area" onclick="odliczaj();"></textarea><br>
 		
 		<script>
 			// a JavaScript code here ...
-			
+			function odliczaj() {
+				setTimeout(wyswietlKomunikat, 30000);
+			}
+			function wyswietlKomunikat() {
+				var x = document.getElementById("area").value;
+				var y = x.length;
+				alert("Koniec czasu!!!\n" + "Napisałeś: " + x + "\nTo jest " + y + " znaków w ciągu 30 sekund.");
+			}
 		</script>
 		
 	</body>
