@@ -4,10 +4,10 @@
 		<title>Change colour</title>
 		<meta charset="UTF-8">
 	</head>
-	<body>
+	<body ondblclick="zmienTlo()" id="all">
 		<h1 id="title">Another Brick in the Wall</h1>
 		<h3 id="band">Pink Floyd</h3>
-		<p>We don't need no education<br>
+		<p onclick="makeItalic()" oncopy="prawaAutorskie()" id="text">We don't need no education<br>
 		We don't need no thought control<br>
 		No dark sarcasm in the classroom<br>
 		Teachers leave them kids alone<br>
@@ -15,23 +15,52 @@
 		All in all it's just another brick in the wall<br>
 		All in all you're just another brick in the wall</p>
 		
-		<p id="ukryty" style="visibility: hidden;">Pink Floyd were an English rock band formed in London.<br>
+		<p id="hidden" style="visibility: visible;">Pink Floyd were an English rock band formed in London.<br>
 		They achieved international acclaim with their progressive<br>
 		and psychedelic music.</p>
 		
 		<script>
 			// a JavaScript code here ...
+/*funkcje przypisane w skrypcie js*/
 			document.getElementById("title").onclick = function() {dodajNapis()};
-			document.getElementById("band").onclick = function() {pokaz()};
+			document.getElementById("band").onclick = function() {wstawObrazek()};
 			
+			//wyswietlenie opisu zespołu
 			function pokaz() {
-				document.getElementById("ukryty").removeAttribute("style");
-				document.getElementById("ukryty").setAttribute("style", "visibility:visible");
+				document.getElementById("hidden").removeAttribute("style");
+				document.getElementById("hidden").setAttribute("style", "visibility: visible");
 			}
+			
+			//dodanie "part 2" w tytule utworu
 			function dodajNapis() {
 				var napis = document.getElementById("title").innerHTML;
 				napis += " Part 2";
 				document.getElementById("title").innerHTML = napis;
+			}
+			
+/*funkcje przypisane w znacznikach html*/
+			//onclick - zmiana czcionki w piosence na pochyłą
+			function makeItalic() {
+				document.getElementById("text").setAttribute("style", "font-style: italic");
+			}
+			
+			//ondblclick - zmiana tła na żółte
+			function zmienTlo() {
+				document.getElementById("all").setAttribute("style", "background-color: yellow");
+			}
+			
+			//oncopy - wyswietla prawa autorskie w oknie
+			function prawaAutorskie() {
+				window.alert("All rights reserved!");
+			}
+			
+			//onclick - wstawia obrazek pod opisem zespołu
+			function wstawObrazek() {
+				//var ponizej = document.createElement("/br");
+				var obrazek = document.createElement("img");
+				obrazek.setAttribute("src", "https://upload.wikimedia.org/wikipedia/en/d/d6/Pink_Floyd_-_all_members.jpg");
+				//ponizej.appendChild(obrazek);
+				document.getElementById("hidden").appendChild(obrazek);
 			}
 			
 		</script>
