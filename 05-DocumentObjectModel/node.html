@@ -4,10 +4,83 @@
 		<title>Create DOM elements</title>
 		<meta charset="UTF-8">
 	</head>
-	<body>
+	<body id="allHTML">
+		
+		<button onclick="wstaw()">Wstaw tabelę</button>
+		<br>
+		<p id="paragraf"></p>
+		
 		<script>
 			// a JavaScript code here ...
-			
+			function wstaw(){
+				
+				var tabela = document.createElement("table");
+				var tytul = document.createElement("tr");
+				
+				var w1 = document.createElement("tr");
+				var w2 = document.createElement("tr");
+				var w3 = document.createElement("tr");
+				var w4 = document.createElement("tr");
+				
+				var kT1 = document.createElement("th");
+				var kT2 = document.createElement("th");
+				var k1 = document.createElement("td");
+				var k2 = document.createElement("td");
+				var k3 = document.createElement("td");
+				var k4 = document.createElement("td");
+				var k5 = document.createElement("td");
+				var k6 = document.createElement("td");
+				var k7 = document.createElement("td");
+				var k8 = document.createElement("td");
+				
+				var tT1 = document.createTextNode("Email");
+				var tT2 = document.createTextNode("Connecting to the Internet");
+				var t1 = document.createTextNode("receive/get/open an email");
+				var t2 = document.createTextNode("ude/access/log onto the Internet");
+				var t3 = document.createTextNode("exchange email addresses");
+				var t4 = document.createTextNode("access/connect to/locate the server");
+				var t5 = document.createTextNode("open/send/contain an attachment");
+				var t6 = document.createTextNode("browse/surf/search/scour the Internet");
+				var t7 = document.createTextNode("open/check your inbox");
+				var t8 = document.createTextNode("install/use/configure a firewall");
+				
+				kT1.appendChild(tT1);
+				kT2.appendChild(tT2);
+				k1.appendChild(t1);
+				k2.appendChild(t2);
+				k3.appendChild(t3);
+				k4.appendChild(t4);
+				k5.appendChild(t5);
+				k6.appendChild(t6);
+				k7.appendChild(t7);
+				k8.appendChild(t8);
+				
+				tytul.appendChild(kT1);
+				tytul.appendChild(kT2);
+				w1.appendChild(k1);
+				w1.appendChild(k2);
+				w2.appendChild(k3);
+				w2.appendChild(k4);
+				w3.appendChild(k5);
+				w3.appendChild(k6);
+				w4.appendChild(k7);
+				w4.appendChild(k8);
+				
+				
+				tabela.appendChild(tytul);
+				tabela.appendChild(w1);
+				tabela.appendChild(w2);
+				tabela.appendChild(w3);
+				tabela.appendChild(w4);
+				
+				tabela.setAttribute("border", "1");
+				tabela.setAttribute("style", "width: 100%");
+				tytul.setAttribute("style", "background-color: grey");
+				
+				
+				document.getElementById("paragraf").appendChild(tabela);
+				
+			}
 		</script>
 	</body>
 </html>
