@@ -1,0 +1,42 @@
+{
+  "person" : {
+    "name" : "Anna",
+    "surname" : "Kowalska",
+    "age" : 23,
+    "gender" : "",
+    "email" : "",
+    "phone" : {
+      "landline" : "",
+      "mobile" : ""
+    },
+    "address" : {
+      "street" : "",
+      "home_number" : "",
+      "postal_code" : "",
+      "city" : ""
+    },
+    "interests" : [],
+    "family" : {
+      "spouse" : {
+        "name" : "",
+        "surname" : ""
+      },
+      "childrens" : [
+        {
+          "name" : "",
+          "surname" : "",
+          "gender" : "",
+          "age" : "",
+          "interests" : []
+        },
+        {
+          "name" : "",
+          "surname" : "",
+          "gender" : "",
+          "age" : "",
+          "interests" : []
+        }
+        ]
+    }
+  }
+}
