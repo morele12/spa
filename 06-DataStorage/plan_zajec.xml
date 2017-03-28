@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan-zajec typ="G" id="116071" nazwa="KrDZIs3012Io" od="2017-03-28" do="2017-04-11">
+   <okres od="2017-03-28" do="2017-04-11" nazwa="2017-03-28 do 2017-04-11" wybrany="tak" />
+   <okres od="2016-09-30" do="2017-02-19" nazwa="2016-09-30 do 2017-02-19" />
+   <okres od="2017-02-20" do="2017-09-30" nazwa="2017-02-20 do 2017-09-30" />
+   <zajecia>
+      <termin>2017-03-28</termin>
+      <dzien>Wt</dzien>
+      <od-godz>09:35</od-godz>
+      <do-godz>11:15</do-godz>
+      <przedmiot>Psychologia</przedmiot>
+      <typ>wykład</typ>
+      <nauczyciel moodle="-490">dr Alicja Szczygieł</nauczyciel>
+      <sala>Paw.S sala 2</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-03-28</termin>
+      <dzien>Wt</dzien>
+      <od-godz>11:20</od-godz>
+      <do-godz>13:00</do-godz>
+      <przedmiot>Etykieta menedżera</przedmiot>
+      <typ>wykład do wyboru</typ>
+      <nauczyciel moodle="-1077">dr Anna Pietruszka-Ortyl</nauczyciel>
+      <sala>Paw.E sala H</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-03-28</termin>
+      <dzien>Wt</dzien>
+      <od-godz>16:30</od-godz>
+      <do-godz>18:05</do-godz>
+      <przedmiot>Programowanie aplikacji webowych SPA</przedmiot>
+      <typ>wykład do wyboru</typ>
+      <nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+      <sala>Paw.A 116 lab. Win8, Office03</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-03-28</termin>
+      <dzien>Wt</dzien>
+      <od-godz>18:10</od-godz>
+      <do-godz>19:45</do-godz>
+      <przedmiot>Usługi cloud computing dla przedsiębiorstw</przedmiot>
+      <typ>wykład do wyboru</typ>
+      <nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+      <sala>Paw.A 116 lab. Win8, Office03</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-03-29</termin>
+      <dzien>Śr</dzien>
+      <od-godz>07:50</od-godz>
+      <do-godz>09:30</do-godz>
+      <przedmiot>Analiza matematyczna i algebra liniowa</przedmiot>
+      <typ>ćwiczenia</typ>
+      <nauczyciel moodle="-525">mgr Paweł Prysak</nauczyciel>
+      <sala>Paw.F 102</sala>
+      <uwagi>powtarzanie przedmiotu 40 g</uwagi>
+   </zajecia>
+   <zajecia>
+      <termin>2017-03-30</termin>
+      <dzien>Cz</dzien>
+      <od-godz>16:30</od-godz>
+      <do-godz>18:05</do-godz>
+      <przedmiot>Programowanie systemów mobilnych</przedmiot>
+      <typ>ćwiczenia</typ>
+      <nauczyciel moodle="-1039">mgr Janusz Tuchowski</nauczyciel>
+      <sala>Paw.A 118 lab. Vista,Office07</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-03-31</termin>
+      <dzien>Pt</dzien>
+      <od-godz>10:30</od-godz>
+      <do-godz>13:00</do-godz>
+      <przedmiot>Comarch Business Intelligence w praktyce zarządzania</przedmiot>
+      <typ>wykład do wyboru</typ>
+      <nauczyciel moodle="-870">prof. UEK dr hab. Janusz Nesterak</nauczyciel>
+      <sala>Paw.A 301a lab.</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-03</termin>
+      <dzien>Pn</dzien>
+      <od-godz>09:35</od-godz>
+      <do-godz>11:15</do-godz>
+      <przedmiot>Systemy zintegrowane</przedmiot>
+      <typ>wykład</typ>
+      <nauczyciel moodle="-893">prof. UEK dr hab. Piotr Soja</nauczyciel>
+      <sala>Bibl. 442</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-03</termin>
+      <dzien>Pn</dzien>
+      <od-godz>13:05</od-godz>
+      <do-godz>14:45</do-godz>
+      <przedmiot>Analiza matematyczna i algebra liniowa</przedmiot>
+      <typ>ćwiczenia</typ>
+      <nauczyciel moodle="-525">mgr Paweł Prysak</nauczyciel>
+      <sala>Paw.F 415</sala>
+      <uwagi>powtarzanie przedmiotu 40 g</uwagi>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-03</termin>
+      <dzien>Pn</dzien>
+      <od-godz>16:30</od-godz>
+      <do-godz>18:05</do-godz>
+      <przedmiot>Systemy zintegrowane</przedmiot>
+      <typ>ćwiczenia</typ>
+      <nauczyciel moodle="-893">prof. UEK dr hab. Piotr Soja</nauczyciel>
+      <sala>Paw.A 121 lab. Vista,Office07</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-03</termin>
+      <dzien>Pn</dzien>
+      <od-godz>18:10</od-godz>
+      <do-godz>19:45</do-godz>
+      <przedmiot>Programowanie systemów rozproszonych</przedmiot>
+      <typ>ćwiczenia</typ>
+      <nauczyciel moodle="-1039">mgr Janusz Tuchowski</nauczyciel>
+      <sala>Paw.A 117 lab. Vista,Office07</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-04</termin>
+      <dzien>Wt</dzien>
+      <od-godz>09:35</od-godz>
+      <do-godz>11:15</do-godz>
+      <przedmiot>Psychologia</przedmiot>
+      <typ>wykład</typ>
+      <nauczyciel moodle="-490">dr Alicja Szczygieł</nauczyciel>
+      <sala>Paw.S sala 2</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-04</termin>
+      <dzien>Wt</dzien>
+      <od-godz>11:20</od-godz>
+      <do-godz>13:00</do-godz>
+      <przedmiot>Etykieta menedżera</przedmiot>
+      <typ>wykład do wyboru</typ>
+      <nauczyciel moodle="-1077">dr Anna Pietruszka-Ortyl</nauczyciel>
+      <sala>Paw.E sala H</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-04</termin>
+      <dzien>Wt</dzien>
+      <od-godz>14:50</od-godz>
+      <do-godz>16:25</do-godz>
+      <przedmiot>Programowanie systemów mobilnych</przedmiot>
+      <typ>wykład</typ>
+      <nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+      <sala>Paw.G 12</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-04</termin>
+      <dzien>Wt</dzien>
+      <od-godz>16:30</od-godz>
+      <do-godz>18:05</do-godz>
+      <przedmiot>Programowanie aplikacji webowych SPA</przedmiot>
+      <typ>wykład do wyboru</typ>
+      <nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+      <sala>Paw.A 116 lab. Win8, Office03</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-04</termin>
+      <dzien>Wt</dzien>
+      <od-godz>18:10</od-godz>
+      <do-godz>19:45</do-godz>
+      <przedmiot>Usługi cloud computing dla przedsiębiorstw</przedmiot>
+      <typ>wykład do wyboru</typ>
+      <nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+      <sala>Paw.A 116 lab. Win8, Office03</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-05</termin>
+      <dzien>Śr</dzien>
+      <od-godz>07:50</od-godz>
+      <do-godz>09:30</do-godz>
+      <przedmiot>Analiza matematyczna i algebra liniowa</przedmiot>
+      <typ>ćwiczenia</typ>
+      <nauczyciel moodle="-525">mgr Paweł Prysak</nauczyciel>
+      <sala>Paw.F 102</sala>
+      <uwagi>powtarzanie przedmiotu 40 g</uwagi>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-05</termin>
+      <dzien>Śr</dzien>
+      <od-godz>11:20</od-godz>
+      <do-godz>13:00</do-godz>
+      <przedmiot>Programowanie systemów rozproszonych</przedmiot>
+      <typ>wykład</typ>
+      <nauczyciel moodle="-1041">dr inż. Tadeusz Wilusz</nauczyciel>
+      <sala>Bibl. 443</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-06</termin>
+      <dzien>Cz</dzien>
+      <od-godz>09:35</od-godz>
+      <do-godz>11:15</do-godz>
+      <przedmiot>BHP i ergonomia</przedmiot>
+      <typ>wykład</typ>
+      <nauczyciel moodle="-928">dr Bernard Bińczycki</nauczyciel>
+      <sala>Bibl. 441</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-06</termin>
+      <dzien>Cz</dzien>
+      <od-godz>16:30</od-godz>
+      <do-godz>18:05</do-godz>
+      <przedmiot>Programowanie systemów mobilnych</przedmiot>
+      <typ>ćwiczenia</typ>
+      <nauczyciel moodle="-1039">mgr Janusz Tuchowski</nauczyciel>
+      <sala>Paw.A 118 lab. Vista,Office07</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-07</termin>
+      <dzien>Pt</dzien>
+      <od-godz>08:45</od-godz>
+      <do-godz>10:20</do-godz>
+      <przedmiot>Sieci komputerowe</przedmiot>
+      <typ>ćwiczenia</typ>
+      <nauczyciel moodle="-1041">dr inż. Tadeusz Wilusz</nauczyciel>
+      <sala>Paw.A 115 lab. Win8, Office03</sala>
+      <uwagi>powtarzanie przedmiotu 1 gr.</uwagi>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-07</termin>
+      <dzien>Pt</dzien>
+      <od-godz>10:30</od-godz>
+      <do-godz>13:00</do-godz>
+      <przedmiot>Comarch Business Intelligence w praktyce zarządzania</przedmiot>
+      <typ>wykład do wyboru</typ>
+      <nauczyciel moodle="-870">prof. UEK dr hab. Janusz Nesterak</nauczyciel>
+      <sala>Paw.A 301a lab.</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-10</termin>
+      <dzien>Pn</dzien>
+      <od-godz>07:50</od-godz>
+      <do-godz>09:30</do-godz>
+      <przedmiot>Sieci komputerowe</przedmiot>
+      <typ>ćwiczenia</typ>
+      <nauczyciel moodle="-1041">dr inż. Tadeusz Wilusz</nauczyciel>
+      <sala>Paw.A 115 lab. Win8, Office03</sala>
+      <uwagi>powtarzanie przedmiotu 1 gr.</uwagi>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-10</termin>
+      <dzien>Pn</dzien>
+      <od-godz>09:35</od-godz>
+      <do-godz>10:20</do-godz>
+      <przedmiot>Systemy zintegrowane</przedmiot>
+      <typ>wykład</typ>
+      <nauczyciel moodle="-893">prof. UEK dr hab. Piotr Soja</nauczyciel>
+      <sala>Bibl. 442</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-10</termin>
+      <dzien>Pn</dzien>
+      <od-godz>13:05</od-godz>
+      <do-godz>14:45</do-godz>
+      <przedmiot>Analiza matematyczna i algebra liniowa</przedmiot>
+      <typ>ćwiczenia</typ>
+      <nauczyciel moodle="-525">mgr Paweł Prysak</nauczyciel>
+      <sala>Paw.F 415</sala>
+      <uwagi>powtarzanie przedmiotu 40 g</uwagi>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-10</termin>
+      <dzien>Pn</dzien>
+      <od-godz>16:30</od-godz>
+      <do-godz>18:05</do-godz>
+      <przedmiot>Systemy zintegrowane</przedmiot>
+      <typ>ćwiczenia</typ>
+      <nauczyciel moodle="-893">prof. UEK dr hab. Piotr Soja</nauczyciel>
+      <sala>Paw.A 121 lab. Vista,Office07</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-10</termin>
+      <dzien>Pn</dzien>
+      <od-godz>18:10</od-godz>
+      <do-godz>19:45</do-godz>
+      <przedmiot>Programowanie systemów rozproszonych</przedmiot>
+      <typ>ćwiczenia</typ>
+      <nauczyciel moodle="-1039">mgr Janusz Tuchowski</nauczyciel>
+      <sala>Paw.A 117 lab. Vista,Office07</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-11</termin>
+      <dzien>Wt</dzien>
+      <od-godz>09:35</od-godz>
+      <do-godz>11:15</do-godz>
+      <przedmiot>Psychologia</przedmiot>
+      <typ>wykład</typ>
+      <nauczyciel moodle="-490">dr Alicja Szczygieł</nauczyciel>
+      <sala>Paw.S sala 2</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-11</termin>
+      <dzien>Wt</dzien>
+      <od-godz>11:20</od-godz>
+      <do-godz>13:00</do-godz>
+      <przedmiot>Etykieta menedżera</przedmiot>
+      <typ>wykład do wyboru</typ>
+      <nauczyciel moodle="-1077">dr Anna Pietruszka-Ortyl</nauczyciel>
+      <sala>Paw.E sala H</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-11</termin>
+      <dzien>Wt</dzien>
+      <od-godz>16:30</od-godz>
+      <do-godz>18:05</do-godz>
+      <przedmiot>Programowanie aplikacji webowych SPA</przedmiot>
+      <typ>wykład do wyboru</typ>
+      <nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+      <sala>Paw.A 116 lab. Win8, Office03</sala>
+   </zajecia>
+   <zajecia>
+      <termin>2017-04-11</termin>
+      <dzien>Wt</dzien>
+      <od-godz>18:10</od-godz>
+      <do-godz>19:45</do-godz>
+      <przedmiot>Usługi cloud computing dla przedsiębiorstw</przedmiot>
+      <typ>wykład do wyboru</typ>
+      <nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+      <sala>Paw.A 116 lab. Win8, Office03</sala>
+   </zajecia>
+</plan-zajec>
+COPY TO CLIPBOARD	 SELECT ALL
+© FreeFormatter.com - Brought to you by MrForms. NEQ: 226907512
