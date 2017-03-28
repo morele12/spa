@@ -1,0 +1,145 @@
+{
+  "person1": {
+    "name": "Anna",
+    "surname": "Kowalska",
+    "age": 23,
+    "gender": "female",
+    "email": "anulaK@gmail.com",
+    "phone": {
+      "landline": "Poland",
+      "mobile": "888711123"
+    },
+    "address": {
+      "street": "Piotrowska",
+      "home_number": "3",
+      "postal_code": "33-654",
+      "city": "Kraków"
+    },
+    "interests": [
+      "pływanie",
+      "czytanie"
+      ],
+    "family": {
+      "spouse": {
+        "name": "Piotr",
+        "surname": "Kowalski"
+      },
+      "childrens": [
+        {
+          "name": "Asia",
+          "surname": "Kowalska",
+          "gender": "female",
+          "age": "3",
+          "interests": [
+            "czytanie",
+            "malowanie"
+            ]
+        },
+        {
+          "name": "Gosia",
+          "surname": "Kowalska",
+          "gender": "female",
+          "age": "2",
+          "interests": [
+            "picie z butelki"
+            ]
+        }
+      ]
+    }
+  },
+  "person2": {
+    "name": "Joanna",
+    "surname": "Machaj",
+    "age": 43,
+    "gender": "female",
+    "email": "JoannaM@gmail.com",
+    "phone": {
+      "landline": "Poland",
+      "mobile": "888341123"
+    },
+    "address": {
+      "street": "Piotrowska",
+      "home_number": "5",
+      "postal_code": "33-654",
+      "city": "Kraków"
+    },
+    "interests": [
+      "pływanie",
+      "jazda na rowerze"
+      ],
+    "family": {
+      "spouse": {
+        "name": "Michał",
+        "surname": "Machaj"
+      },
+      "childrens": [
+        {
+          "name": "Basia",
+          "surname": "Machaj",
+          "gender": "female",
+          "age": "6",
+          "interests": [
+            "lalki",
+            "samochody"
+            ]
+        },
+        {
+          "name": "Marek",
+          "surname": "Machaj",
+          "gender": "male",
+          "age": "20",
+          "interests": [
+            "piłka"
+            ]
+        }
+      ]
+    }
+  },
+  "person3": {
+    "name": "Bartek",
+    "surname": "Kowal",
+    "age": 23,
+    "gender": "male",
+    "email": "bartekk@gmail.com",
+    "phone": {
+      "landline": "Poland",
+      "mobile": "832711123"
+    },
+    "address": {
+      "street": "Piotrowska",
+      "home_number": "7",
+      "postal_code": "33-654",
+      "city": "Kraków"
+    },
+    "interests": [
+      "gotowanie"
+      ],
+    "family": {
+      "spouse": {
+        "name": "Marta",
+        "surname": "Kowal"
+      },
+      "childrens": [
+        {
+          "name": "Magda",
+          "surname": "Kowal",
+          "gender": "female",
+          "age": "3",
+          "interests": [
+            "lalki"
+            ]
+        },
+        {
+          "name": "Marek",
+          "surname": "Kowal",
+          "gender": "female",
+          "age": "5",
+          "interests": [
+            "samochody",
+            "piłka"
+            ]
+        }
+      ]
+    }
+  }
+}
