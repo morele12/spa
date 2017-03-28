@@ -1,0 +1,72 @@
+<html>
+	<head>
+		
+	</head>
+	
+	<body>
+		<script>
+			var person;
+			person = 
+			{
+				"name" : "Anna",
+				"surname" : "Kowalska",
+				"age" : 53,
+				"gender" : "female",
+				"email" : "anula@gmail.com",
+				"phone" : 
+				{
+				  "landline" : "Poland",
+				  "mobile" : "888123564"
+				},
+				"address" : 
+				{
+				  "street" : "Makowa",
+				  "home_number" : "12",
+				  "postal_code" : "12-345",
+				  "city" : "Kraków"
+				},
+				"interests" : [
+					"swimming",
+					"horse riding",
+					"skiing"
+				],
+				"family" : 
+				{
+				  "spouse" : 
+				  {
+					"name" : "Maciej",
+					"surname" : "Kowalski"
+				  },
+				  "childrens" : [
+					{
+					  "name" : "Michał",
+					  "surname" : "Kowalski",
+					  "gender" : "male",
+					  "age" : "8",
+					  "interests" : [
+						"cars",
+						"football",
+						"games"
+					  ]
+					},
+					{
+					  "name" : "Michasia",
+					  "surname" : "Kowalska",
+					  "gender" : "female",
+					  "age" : "3",
+					  "interests" : [
+						"dols",
+						"pets"
+					  ]
+					}
+					]
+				}
+			}
+			
+			var serialized = JSON.stringify(person);
+			localStorage.setItem("osoba", serialized);
+		</script>
+	</body>
+
+
+</html>
