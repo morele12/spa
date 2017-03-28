@@ -1,0 +1,39 @@
+<html>
+
+	<head>
+	</head>
+
+	<body>
+		<table>
+			<tr> 
+				<td>Name: </td>
+				<td><input type="text" id="name"></td>
+			</tr>
+			<tr> 
+				<td>Surname: </td>
+				<td><input type="text" id="surname"></td>
+			</tr>
+		</table>
+		<button onclick="saveInput()">Save</button>
+		<button onclick="retreiveInput()">Restore</button>
+		<script>
+			function saveInput() {
+				var usrname = document.getElementById("name").value;
+				localStorage.setItem("name",usrname);
+				var usrsurname = document.getElementById("surname").value;
+				localStorage.setItem("surname",usrsurname);
+			}
+			
+			function retreiveInput() {
+				var usrname, usrsurname;
+				
+				usrname = localStorage.getItem("name");
+				usrsurname = localStorage.getItem("surname");
+				
+				document.getElementById("name").value = usrname;
+				document.getElementById("surname").value = usrsurname;
+			}
+		</script>
+	</body>
+
+</html>
