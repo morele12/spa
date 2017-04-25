@@ -12,13 +12,31 @@
 		<!-- list of currency exchange rates -->
 		<div id="dataview"></div>
 		<hr><!-- form to add new currency -->
+		
 		<h3>Add new currency</h3>
-		<p>Currency code (e.g. EUR):<br>	
-		<input type="text" id="code" maxlength="3" ></p>
+		<p>Currency code (e.g. EUR):<br>
+			<form name="the_form_2">
+			<select size="3" multiple="multiple" id="code">
+			<option value="EUR">EUR</option>	
+			<option value="USD">USD</option>
+			<option value="GBP">GBP</option>
+			<option value="CHF">CHF</option>
+			<option value="CZK">CZK</option>
+			<option value="HRK">HRK</option>
+			<option value="HUF">HUF</option>
+			</select></p>
 		<p>Exchange rate (e.g. 4.02):<br>
 		<input type="text" id="rate" maxlength="4"></p>
-		<p>Currency name (e.g. Euro):<br>
-		<input type="text" id="name" maxlength="15"></p>
+		<p>Currency name (e.g. Euro):<br>		
+			<select size="3" multiple="multiple" id="name">
+			<option value="Euro">Euro</option>	
+			<option value="dolar">dolar</option>
+			<option value="funt">funt</option>
+			<option value="frank">frank</option>
+			<option value="korona">korona</option>
+			<option value="kuna">kuna</option>
+			<option value="forint">forint</option>
+			</select></form></p>
 		<input type="button" value="Add new currency" onclick="view.addCurrency()">
 	</body>
 </html>
