@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="angular.min.js"></script>
+</head>
+
+<body>
+
+	<h1>The area of a square</h1>
+	<div ng-app="" ng-init="triangle={podstawa:0, wysokosc:0}"> //nie ma kontrolera więc inicjuje tutaj domyślną wartość
+
+		<p>Podstawa trójkąta: <input type="number" ng-model="triangle.podstawa"></p>
+		<p>Wysokość trójkąta: <input type="number" ng-model="triangle.wysokosc"></p>
+		<p>Pole trójkąta wynosi: <b>{{triangle.podstawa * triangle.wysokosc * 0.5}}</b></p>
+	</div>
+
+</body>
+</html>

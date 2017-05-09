@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+
+<body ng -app =" myApp "ng -controller =" myCtrl "> 
+
+	<table> 
+		<tr ng -repeat =" day in daysOfWeek "> 
+			<td> {{ day }}</ td >
+		</ tr >
+	</table>
+	<script >var app = angular.module (" myApp ", []); app.controller (" myCtrl ", function ($ scope ) { $scope .daysOfWeek = [" Monday ", "Tuesday ", … ]}); </ script ></body>
+</html>
